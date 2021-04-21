@@ -50,7 +50,7 @@ Advantages of Selenium WebDriver:
 Disadvantages of Selenium WebDriver:
 -- cant automate desktop applications
 -- no technical support
--- does not have builtin reporting feature
+-- does not have built in reporting feature
 -- cant test CAPTCHA/Barcodes
 
 close() vs quit()

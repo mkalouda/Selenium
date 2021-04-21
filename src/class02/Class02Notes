@@ -1,0 +1,39 @@
+What is a web element?
+-- Anything we see on the web page is considered to be a web element
+    ex. button, text boxes, check boxes, dropdowns, etc..
+
+HTML?
+--HyperText Markup Language
+
+What is DOM?
+-- DOM stands for Document Object Model. It is a browsers internal view of the webpage
+    Also celled developer tools
+    Document -- can be stored any document, like pdf, excel, or word
+    Object -- any line in html is called an object
+    Model -- it is just a layout of the html file in DOM
+
+What is locator?
+-- is an address or a position of a web element in the webpage
+    It is used to locate or identify the web element on the webpage
+
+8 locators:
+-- ID
+-- Name
+-- ClassName
+-- CSS
+-- Xpath
+-- Linktext
+-- PartialLinktText
+
+HTML scriptint meaning
+purple -- tags
+brown or orange -- attributes
+blue -- attribute value
+
+Why do we need so many locators?
+-- some locators might have duplicate values
+-- Developers might not provide all the locators for the same element
+-- some locators may not be applicable to all the elements
+    ex. linktext, partialLinkText are only used for links
+
+"a" tag is called anchor tag
