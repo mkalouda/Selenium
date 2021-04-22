@@ -60,3 +60,9 @@ What is an Xpath?
     //tagname[@attribute = 'attribute value']/ancestor::ancestorTagname
     example: //input[@id = 'email']/ancestor::form
 
+    identifying elements by index:
+    add [number] at the end
+    example (//img[@class = 'ui-datepicker-trigger'])[2]
+    should be the last resort
+
+

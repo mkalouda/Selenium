@@ -1,0 +1,41 @@
+CSS selectors:
+-- stands for cascading styling sheet
+-- it is another way of locating elements uniquely
+-- CSS does not allow you to identify an element by text
+
+    Syntax:
+    -- tagname[attribute = 'attribute value']
+    example: input[id = 'user-message']
+
+    Shortcuts for CSS:
+    1. classname -> "."
+        -- tagname.classNameValue
+        example: input.form-control
+    2. ID -> "#"
+        -- tagname#.idValue
+        example: input#ctl00_MainContent_username
+
+    Contains method in CSS:
+    -- * symbol represents contains() method
+    -- tagname[attribute *= 'partial attribute value']
+    example: input[id *= 'username']
+
+    starts-with method in CSS:
+    -- ^ symbol represents starts-with method
+    -- tagname[attribute ^= 'starting attribute value']
+    example: input[type ^= 'sub']
+
+    ends-with method in CSS:
+    -- $ symbol represents ends-with method
+    -- tagname[attribute $= 'ending attribute value']
+    example: input[id $= 'password']
+
+WebElement Commands:
+-- consist of several mehtods where we can perform actions and get element state on webpage
+
+    isEnabled() -- boolean value
+    isSelected() -- boolean value
+    isDisplayed() -- boolean value
+    clear() -- void
+    getText() -- String
+    getAttribute() -- String
