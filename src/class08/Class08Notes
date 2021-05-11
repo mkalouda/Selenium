@@ -1,0 +1,31 @@
+Implicit wait:
+-- will be applied for findElement() method
+
+Explicit wait:
+-- also called Webdriver wait for a certain condition before throwing an "ElementNotVisibleException"
+-- works with expectedConditions class and waits until certain conditions are met or the given time is achieved
+
+Fluent wait
+-- is a global wait
+-- it is used to tell webdriver to wait for certain condition as well as its frequency before throwing
+    "ElementNotVisibleException"
+
+WebTables:
+-- WebTables are elements in UI, which constructed by rows and columns
+-- consist of different sections or parts
+    <table>
+        <t-head>
+            <tr>
+                <th></th> --> column data
+            </tr>
+        </t-head>
+        <tbodys>
+            <tr>
+                <td></td> --> table data
+            </tr>
+        </tbodys>
+    </table>
+
+    Types of WebTables:
+        1. Static webtable
+        2. Dynamic webtable
