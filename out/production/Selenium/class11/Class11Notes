@@ -1,0 +1,14 @@
+Upload Documents:
+-- in order to upload documents using Selenium we can simply do sendKeys(filePath)
+-- if sendKeys does not work , you can use Robot class
+
+JS executor
+-- it is a library in selenium which can be executed in different programming languages
+(java,c#,python,etc..)
+-- JSExecutor is an Interface
+-- we should only be using it when we are not able to perform actions such as:
+    -- click on elements
+    -- scroll the page
+    -- highlight an element
+    -- scroll to a specific element
+    -- open a new tab
